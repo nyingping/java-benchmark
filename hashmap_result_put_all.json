@@ -1,0 +1,1040 @@
+[
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testConflict",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.399359770385538E-10,
+            "scoreError" : 6.327259028169739E-11,
+            "scoreConfidence" : [
+                1.7666338675685642E-10,
+                3.032085673202512E-10
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.3789703304931006E-10,
+                "50.0" : 2.379704311030685E-10,
+                "90.0" : 2.4394046696328283E-10,
+                "95.0" : 2.4394046696328283E-10,
+                "99.0" : 2.4394046696328283E-10,
+                "99.9" : 2.4394046696328283E-10,
+                "99.99" : 2.4394046696328283E-10,
+                "99.999" : 2.4394046696328283E-10,
+                "99.9999" : 2.4394046696328283E-10,
+                "100.0" : 2.4394046696328283E-10
+            },
+            "scoreUnit" : "ops/ns",
+            "rawData" : [
+                [
+                    2.4394046696328283E-10,
+                    2.379704311030685E-10,
+                    2.3789703304931006E-10
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testNoConflict",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.5000177092746345E-8,
+            "scoreError" : 1.3450798023461902E-8,
+            "scoreConfidence" : [
+                1.1549379069284443E-8,
+                3.845097511620825E-8
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.4151749475546005E-8,
+                "50.0" : 2.5363439437552304E-8,
+                "90.0" : 2.5485342365140723E-8,
+                "95.0" : 2.5485342365140723E-8,
+                "99.0" : 2.5485342365140723E-8,
+                "99.9" : 2.5485342365140723E-8,
+                "99.99" : 2.5485342365140723E-8,
+                "99.999" : 2.5485342365140723E-8,
+                "99.9999" : 2.5485342365140723E-8,
+                "100.0" : 2.5485342365140723E-8
+            },
+            "scoreUnit" : "ops/ns",
+            "rawData" : [
+                [
+                    2.4151749475546005E-8,
+                    2.5363439437552304E-8,
+                    2.5485342365140723E-8
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testConflict",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 4.0124691833333335E9,
+            "scoreError" : 2.4498967098697124E9,
+            "scoreConfidence" : [
+                1.5625724734636211E9,
+                6.462365893203046E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.89172385E9,
+                "50.0" : 3.98858955E9,
+                "90.0" : 4.15709415E9,
+                "95.0" : 4.15709415E9,
+                "99.0" : 4.15709415E9,
+                "99.9" : 4.15709415E9,
+                "99.99" : 4.15709415E9,
+                "99.999" : 4.15709415E9,
+                "99.9999" : 4.15709415E9,
+                "100.0" : 4.15709415E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.98858955E9,
+                    4.15709415E9,
+                    3.89172385E9
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testNoConflict",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 3.9425945869281046E7,
+            "scoreError" : 1.6896727897339784E7,
+            "scoreConfidence" : [
+                2.2529217971941262E7,
+                5.632267376662083E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.8441513333333336E7,
+                "50.0" : 3.95562862745098E7,
+                "90.0" : 4.0280038E7,
+                "95.0" : 4.0280038E7,
+                "99.0" : 4.0280038E7,
+                "99.9" : 4.0280038E7,
+                "99.99" : 4.0280038E7,
+                "99.999" : 4.0280038E7,
+                "99.9999" : 4.0280038E7,
+                "100.0" : 4.0280038E7
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.0280038E7,
+                    3.95562862745098E7,
+                    3.8441513333333336E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testConflict",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 4.0502995626666665E9,
+            "scoreError" : 1.2811557361338193E9,
+            "scoreConfidence" : [
+                2.7691438265328474E9,
+                5.331455298800486E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.48127232E9,
+                "50.0" : 4.175429632E9,
+                "90.0" : 4.454350848E9,
+                "95.0" : 4.454350848E9,
+                "99.0" : 4.454350848E9,
+                "99.9" : 4.454350848E9,
+                "99.99" : 4.454350848E9,
+                "99.999" : 4.454350848E9,
+                "99.9999" : 4.454350848E9,
+                "100.0" : 4.454350848E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawDataHistogram" : [
+                [
+                    [
+                        [ 3.48127232E9, 1 ],
+                        [ 4.437573632E9, 1 ]
+                    ],
+                    [
+                        [ 3.913285632E9, 1 ],
+                        [ 4.454350848E9, 1 ]
+                    ],
+                    [
+                        [ 3.569352704E9, 1 ],
+                        [ 4.44596224E9, 1 ]
+                    ]
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "testConflict·p0.00" : {
+                "score" : 3.48127232E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 3.48127232E9,
+                    "50.0" : 3.48127232E9,
+                    "90.0" : 3.48127232E9,
+                    "95.0" : 3.48127232E9,
+                    "99.0" : 3.48127232E9,
+                    "99.9" : 3.48127232E9,
+                    "99.99" : 3.48127232E9,
+                    "99.999" : 3.48127232E9,
+                    "99.9999" : 3.48127232E9,
+                    "100.0" : 3.48127232E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        3.48127232E9,
+                        3.913285632E9,
+                        3.569352704E9
+                    ]
+                ]
+            },
+            "testConflict·p0.50" : {
+                "score" : 4.175429632E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.175429632E9,
+                    "50.0" : 4.175429632E9,
+                    "90.0" : 4.175429632E9,
+                    "95.0" : 4.175429632E9,
+                    "99.0" : 4.175429632E9,
+                    "99.9" : 4.175429632E9,
+                    "99.99" : 4.175429632E9,
+                    "99.999" : 4.175429632E9,
+                    "99.9999" : 4.175429632E9,
+                    "100.0" : 4.175429632E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        3.959422976E9,
+                        4.18381824E9,
+                        4.007657472E9
+                    ]
+                ]
+            },
+            "testConflict·p0.90" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.437573632E9,
+                        4.454350848E9,
+                        4.44596224E9
+                    ]
+                ]
+            },
+            "testConflict·p0.95" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.437573632E9,
+                        4.454350848E9,
+                        4.44596224E9
+                    ]
+                ]
+            },
+            "testConflict·p0.99" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.437573632E9,
+                        4.454350848E9,
+                        4.44596224E9
+                    ]
+                ]
+            },
+            "testConflict·p0.999" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.437573632E9,
+                        4.454350848E9,
+                        4.44596224E9
+                    ]
+                ]
+            },
+            "testConflict·p0.9999" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.437573632E9,
+                        4.454350848E9,
+                        4.44596224E9
+                    ]
+                ]
+            },
+            "testConflict·p1.00" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.437573632E9,
+                        4.454350848E9,
+                        4.44596224E9
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testNoConflict",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 3.992335936423841E7,
+            "scoreError" : 2016251.1366005857,
+            "scoreConfidence" : [
+                3.790710822763783E7,
+                4.1939610500838995E7
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.506176E7,
+                "50.0" : 3.6306944E7,
+                "90.0" : 4.6438809599999994E7,
+                "95.0" : 6.783631360000001E7,
+                "99.0" : 8.688893952000001E7,
+                "99.9" : 1.0289152E8,
+                "99.99" : 1.0289152E8,
+                "99.999" : 1.0289152E8,
+                "99.9999" : 1.0289152E8,
+                "100.0" : 1.0289152E8
+            },
+            "scoreUnit" : "ns/op",
+            "rawDataHistogram" : [
+                [
+                    [
+                        [ 3.506176E7, 1 ],
+                        [ 3.5127296E7, 1 ],
+                        [ 3.5323904E7, 3 ],
+                        [ 3.538944E7, 4 ],
+                        [ 3.5454976E7, 2 ],
+                        [ 3.5520512E7, 2 ],
+                        [ 3.5586048E7, 5 ],
+                        [ 3.571712E7, 3 ],
+                        [ 3.5782656E7, 4 ],
+                        [ 3.5848192E7, 6 ],
+                        [ 3.5913728E7, 2 ],
+                        [ 3.5979264E7, 1 ],
+                        [ 3.60448E7, 6 ],
+                        [ 3.6110336E7, 4 ],
+                        [ 3.6175872E7, 2 ],
+                        [ 3.6241408E7, 1 ],
+                        [ 3.6306944E7, 4 ],
+                        [ 3.637248E7, 1 ],
+                        [ 3.6438016E7, 2 ],
+                        [ 3.6503552E7, 2 ],
+                        [ 3.6569088E7, 2 ],
+                        [ 3.670016E7, 1 ],
+                        [ 3.6831232E7, 2 ],
+                        [ 3.702784E7, 2 ],
+                        [ 3.7093376E7, 2 ],
+                        [ 3.7158912E7, 3 ],
+                        [ 3.7224448E7, 1 ],
+                        [ 3.7289984E7, 1 ],
+                        [ 3.7421056E7, 1 ],
+                        [ 3.7552128E7, 2 ],
+                        [ 3.7748736E7, 1 ],
+                        [ 3.7879808E7, 1 ],
+                        [ 3.801088E7, 1 ],
+                        [ 3.8076416E7, 1 ],
+                        [ 3.8273024E7, 2 ],
+                        [ 3.833856E7, 1 ],
+                        [ 4.0435712E7, 1 ],
+                        [ 4.0566784E7, 1 ],
+                        [ 4.2532864E7, 1 ],
+                        [ 4.9020928E7, 1 ],
+                        [ 6.4356352E7, 1 ],
+                        [ 6.6912256E7, 1 ],
+                        [ 6.6977792E7, 1 ],
+                        [ 7.1303168E7, 1 ],
+                        [ 7.3007104E7, 1 ],
+                        [ 7.3793536E7, 1 ],
+                        [ 7.667712E7, 1 ],
+                        [ 8.1788928E7, 1 ],
+                        [ 8.650752E7, 1 ],
+                        [ 8.6900736E7, 1 ],
+                        [ 9.4896128E7, 1 ],
+                        [ 1.0289152E8, 1 ]
+                    ],
+                    [
+                        [ 3.571712E7, 2 ],
+                        [ 3.5782656E7, 3 ],
+                        [ 3.5848192E7, 9 ],
+                        [ 3.5913728E7, 11 ],
+                        [ 3.5979264E7, 9 ],
+                        [ 3.60448E7, 7 ],
+                        [ 3.6110336E7, 5 ],
+                        [ 3.6175872E7, 6 ],
+                        [ 3.6241408E7, 8 ],
+                        [ 3.6306944E7, 3 ],
+                        [ 3.637248E7, 6 ],
+                        [ 3.6438016E7, 4 ],
+                        [ 3.6503552E7, 1 ],
+                        [ 3.6569088E7, 1 ],
+                        [ 3.6634624E7, 3 ],
+                        [ 3.670016E7, 2 ],
+                        [ 3.6896768E7, 1 ],
+                        [ 3.7224448E7, 1 ],
+                        [ 3.7486592E7, 1 ],
+                        [ 3.7617664E7, 1 ],
+                        [ 3.76832E7, 1 ],
+                        [ 3.7748736E7, 1 ],
+                        [ 3.8928384E7, 1 ],
+                        [ 3.899392E7, 1 ],
+                        [ 3.9780352E7, 1 ],
+                        [ 4.063232E7, 1 ],
+                        [ 4.1091072E7, 1 ],
+                        [ 4.128768E7, 2 ],
+                        [ 4.1680896E7, 1 ],
+                        [ 4.7644672E7, 1 ],
+                        [ 5.1249152E7, 1 ],
+                        [ 5.57056E7, 1 ],
+                        [ 5.8064896E7, 1 ],
+                        [ 6.3045632E7, 1 ],
+                        [ 6.7895296E7, 1 ],
+                        [ 7.5759616E7, 1 ],
+                        [ 7.733248E7, 1 ],
+                        [ 8.0084992E7, 1 ]
+                    ],
+                    [
+                        [ 3.5651584E7, 2 ],
+                        [ 3.571712E7, 1 ],
+                        [ 3.5782656E7, 2 ],
+                        [ 3.5848192E7, 7 ],
+                        [ 3.5913728E7, 5 ],
+                        [ 3.5979264E7, 8 ],
+                        [ 3.60448E7, 2 ],
+                        [ 3.6110336E7, 8 ],
+                        [ 3.6175872E7, 2 ],
+                        [ 3.6241408E7, 4 ],
+                        [ 3.6306944E7, 5 ],
+                        [ 3.637248E7, 5 ],
+                        [ 3.6438016E7, 3 ],
+                        [ 3.6503552E7, 1 ],
+                        [ 3.6569088E7, 2 ],
+                        [ 3.670016E7, 2 ],
+                        [ 3.6765696E7, 2 ],
+                        [ 3.6896768E7, 1 ],
+                        [ 3.6962304E7, 1 ],
+                        [ 3.702784E7, 1 ],
+                        [ 3.7289984E7, 1 ],
+                        [ 3.735552E7, 3 ],
+                        [ 3.7486592E7, 2 ],
+                        [ 3.7552128E7, 1 ],
+                        [ 3.7617664E7, 2 ],
+                        [ 3.76832E7, 1 ],
+                        [ 3.7748736E7, 1 ],
+                        [ 3.7945344E7, 1 ],
+                        [ 3.801088E7, 1 ],
+                        [ 3.8207488E7, 1 ],
+                        [ 3.8273024E7, 1 ],
+                        [ 3.9190528E7, 1 ],
+                        [ 3.93216E7, 2 ],
+                        [ 3.9518208E7, 1 ],
+                        [ 4.0108032E7, 1 ],
+                        [ 4.0697856E7, 1 ],
+                        [ 4.0894464E7, 1 ],
+                        [ 4.1025536E7, 1 ],
+                        [ 4.1156608E7, 1 ],
+                        [ 4.161536E7, 1 ],
+                        [ 4.194304E7, 1 ],
+                        [ 4.2205184E7, 1 ],
+                        [ 4.2532864E7, 1 ],
+                        [ 4.325376E7, 1 ],
+                        [ 4.3384832E7, 1 ],
+                        [ 4.6071808E7, 1 ],
+                        [ 4.6596096E7, 1 ],
+                        [ 5.1511296E7, 1 ],
+                        [ 5.2035584E7, 1 ],
+                        [ 5.4263808E7, 1 ],
+                        [ 5.9047936E7, 1 ],
+                        [ 6.750208E7, 1 ],
+                        [ 6.88128E7, 1 ],
+                        [ 7.6939264E7, 1 ]
+                    ]
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "testNoConflict·p0.00" : {
+                "score" : 3.506176E7,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 3.506176E7,
+                    "50.0" : 3.506176E7,
+                    "90.0" : 3.506176E7,
+                    "95.0" : 3.506176E7,
+                    "99.0" : 3.506176E7,
+                    "99.9" : 3.506176E7,
+                    "99.99" : 3.506176E7,
+                    "99.999" : 3.506176E7,
+                    "99.9999" : 3.506176E7,
+                    "100.0" : 3.506176E7
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        3.506176E7,
+                        3.571712E7,
+                        3.5651584E7
+                    ]
+                ]
+            },
+            "testNoConflict·p0.50" : {
+                "score" : 3.6306944E7,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 3.6306944E7,
+                    "50.0" : 3.6306944E7,
+                    "90.0" : 3.6306944E7,
+                    "95.0" : 3.6306944E7,
+                    "99.0" : 3.6306944E7,
+                    "99.9" : 3.6306944E7,
+                    "99.99" : 3.6306944E7,
+                    "99.999" : 3.6306944E7,
+                    "99.9999" : 3.6306944E7,
+                    "100.0" : 3.6306944E7
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        3.6306944E7,
+                        3.6175872E7,
+                        3.6438016E7
+                    ]
+                ]
+            },
+            "testNoConflict·p0.90" : {
+                "score" : 4.6438809599999994E7,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.6438809599999994E7,
+                    "50.0" : 4.6438809599999994E7,
+                    "90.0" : 4.6438809599999994E7,
+                    "95.0" : 4.6438809599999994E7,
+                    "99.0" : 4.6438809599999994E7,
+                    "99.9" : 4.6438809599999994E7,
+                    "99.99" : 4.6438809599999994E7,
+                    "99.999" : 4.6438809599999994E7,
+                    "99.9999" : 4.6438809599999994E7,
+                    "100.0" : 4.6438809599999994E7
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        6.827540479999998E7,
+                        4.1523609599999994E7,
+                        4.33324032E7
+                    ]
+                ]
+            },
+            "testNoConflict·p0.95" : {
+                "score" : 6.783631360000001E7,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 6.783631360000001E7,
+                    "50.0" : 6.783631360000001E7,
+                    "90.0" : 6.783631360000001E7,
+                    "95.0" : 6.783631360000001E7,
+                    "99.0" : 6.783631360000001E7,
+                    "99.9" : 6.783631360000001E7,
+                    "99.99" : 6.783631360000001E7,
+                    "99.999" : 6.783631360000001E7,
+                    "99.9999" : 6.783631360000001E7,
+                    "100.0" : 6.783631360000001E7
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        8.249671680000003E7,
+                        6.204948479999998E7,
+                        5.3818163199999996E7
+                    ]
+                ]
+            },
+            "testNoConflict·p0.99" : {
+                "score" : 8.688893952000001E7,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 8.688893952000001E7,
+                    "50.0" : 8.688893952000001E7,
+                    "90.0" : 8.688893952000001E7,
+                    "95.0" : 8.688893952000001E7,
+                    "99.0" : 8.688893952000001E7,
+                    "99.9" : 8.688893952000001E7,
+                    "99.99" : 8.688893952000001E7,
+                    "99.999" : 8.688893952000001E7,
+                    "99.9999" : 8.688893952000001E7,
+                    "100.0" : 8.688893952000001E7
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        1.0289152E8,
+                        7.997489151999998E7,
+                        7.661420543999995E7
+                    ]
+                ]
+            },
+            "testNoConflict·p0.999" : {
+                "score" : 1.0289152E8,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 1.0289152E8,
+                    "50.0" : 1.0289152E8,
+                    "90.0" : 1.0289152E8,
+                    "95.0" : 1.0289152E8,
+                    "99.0" : 1.0289152E8,
+                    "99.9" : 1.0289152E8,
+                    "99.99" : 1.0289152E8,
+                    "99.999" : 1.0289152E8,
+                    "99.9999" : 1.0289152E8,
+                    "100.0" : 1.0289152E8
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        1.0289152E8,
+                        8.0084992E7,
+                        7.6939264E7
+                    ]
+                ]
+            },
+            "testNoConflict·p0.9999" : {
+                "score" : 1.0289152E8,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 1.0289152E8,
+                    "50.0" : 1.0289152E8,
+                    "90.0" : 1.0289152E8,
+                    "95.0" : 1.0289152E8,
+                    "99.0" : 1.0289152E8,
+                    "99.9" : 1.0289152E8,
+                    "99.99" : 1.0289152E8,
+                    "99.999" : 1.0289152E8,
+                    "99.9999" : 1.0289152E8,
+                    "100.0" : 1.0289152E8
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        1.0289152E8,
+                        8.0084992E7,
+                        7.6939264E7
+                    ]
+                ]
+            },
+            "testNoConflict·p1.00" : {
+                "score" : 1.0289152E8,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 1.0289152E8,
+                    "50.0" : 1.0289152E8,
+                    "90.0" : 1.0289152E8,
+                    "95.0" : 1.0289152E8,
+                    "99.0" : 1.0289152E8,
+                    "99.9" : 1.0289152E8,
+                    "99.99" : 1.0289152E8,
+                    "99.999" : 1.0289152E8,
+                    "99.9999" : 1.0289152E8,
+                    "100.0" : 1.0289152E8
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        1.0289152E8,
+                        8.0084992E7,
+                        7.6939264E7
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testConflict",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 3.9409185666666665E9,
+            "scoreError" : 8.647312668569689E9,
+            "scoreConfidence" : [
+                -4.706394101903023E9,
+                1.2588231235236355E10
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.4920838E9,
+                "50.0" : 3.8940879E9,
+                "90.0" : 4.436584E9,
+                "95.0" : 4.436584E9,
+                "99.0" : 4.436584E9,
+                "99.9" : 4.436584E9,
+                "99.99" : 4.436584E9,
+                "99.999" : 4.436584E9,
+                "99.9999" : 4.436584E9,
+                "100.0" : 4.436584E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.4920838E9,
+                    4.436584E9,
+                    3.8940879E9
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutBenchmark.testNoConflict",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=61226:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 1.5887146666666666E8,
+            "scoreError" : 3.6204359075237327E9,
+            "scoreConfidence" : [
+                -3.461564440857066E9,
+                3.779307374190399E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.70508E7,
+                "50.0" : 5.16999E7,
+                "90.0" : 3.878637E8,
+                "95.0" : 3.878637E8,
+                "99.0" : 3.878637E8,
+                "99.9" : 3.878637E8,
+                "99.99" : 3.878637E8,
+                "99.999" : 3.878637E8,
+                "99.9999" : 3.878637E8,
+                "100.0" : 3.878637E8
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.16999E7,
+                    3.878637E8,
+                    3.70508E7
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

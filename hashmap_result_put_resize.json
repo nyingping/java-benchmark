@@ -1,0 +1,899 @@
+[
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testInitLen",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.456196518438508E-10,
+            "scoreError" : 1.0817699783978341E-10,
+            "scoreConfidence" : [
+                1.374426540040674E-10,
+                3.537966496836342E-10
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.392836288434305E-10,
+                "50.0" : 2.465403030096198E-10,
+                "90.0" : 2.5103502367850205E-10,
+                "95.0" : 2.5103502367850205E-10,
+                "99.0" : 2.5103502367850205E-10,
+                "99.9" : 2.5103502367850205E-10,
+                "99.99" : 2.5103502367850205E-10,
+                "99.999" : 2.5103502367850205E-10,
+                "99.9999" : 2.5103502367850205E-10,
+                "100.0" : 2.5103502367850205E-10
+            },
+            "scoreUnit" : "ops/ns",
+            "rawData" : [
+                [
+                    2.5103502367850205E-10,
+                    2.392836288434305E-10,
+                    2.465403030096198E-10
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testNoInitLen",
+        "mode" : "thrpt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 2.2466689175161969E-10,
+            "scoreError" : 1.9189206404738127E-10,
+            "scoreConfidence" : [
+                3.277482770423842E-11,
+                4.1655895579900095E-10
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.1296207286037324E-10,
+                "50.0" : 2.2771189553962722E-10,
+                "90.0" : 2.3332670685485865E-10,
+                "95.0" : 2.3332670685485865E-10,
+                "99.0" : 2.3332670685485865E-10,
+                "99.9" : 2.3332670685485865E-10,
+                "99.99" : 2.3332670685485865E-10,
+                "99.999" : 2.3332670685485865E-10,
+                "99.9999" : 2.3332670685485865E-10,
+                "100.0" : 2.3332670685485865E-10
+            },
+            "scoreUnit" : "ops/ns",
+            "rawData" : [
+                [
+                    2.2771189553962722E-10,
+                    2.1296207286037324E-10,
+                    2.3332670685485865E-10
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testInitLen",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 4.0666134833333335E9,
+            "scoreError" : 1.8848464841766593E9,
+            "scoreConfidence" : [
+                2.1817669991566744E9,
+                5.951459967509993E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.99491145E9,
+                "50.0" : 4.01989295E9,
+                "90.0" : 4.18503605E9,
+                "95.0" : 4.18503605E9,
+                "99.0" : 4.18503605E9,
+                "99.9" : 4.18503605E9,
+                "99.99" : 4.18503605E9,
+                "99.999" : 4.18503605E9,
+                "99.9999" : 4.18503605E9,
+                "100.0" : 4.18503605E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.99491145E9,
+                    4.18503605E9,
+                    4.01989295E9
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testNoInitLen",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 4.352124066666667E9,
+            "scoreError" : 5.785058783089926E9,
+            "scoreConfidence" : [
+                -1.4329347164232588E9,
+                1.0137182849756592E10
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.0689031E9,
+                "50.0" : 4.2927596E9,
+                "90.0" : 4.6947095E9,
+                "95.0" : 4.6947095E9,
+                "99.0" : 4.6947095E9,
+                "99.9" : 4.6947095E9,
+                "99.99" : 4.6947095E9,
+                "99.999" : 4.6947095E9,
+                "99.9999" : 4.6947095E9,
+                "100.0" : 4.6947095E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.2927596E9,
+                    4.6947095E9,
+                    4.0689031E9
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testInitLen",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 4.045406208E9,
+            "scoreError" : 1.2830996491646097E9,
+            "scoreConfidence" : [
+                2.76230655883539E9,
+                5.32850585716461E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.50224384E9,
+                "50.0" : 4.158652416E9,
+                "90.0" : 4.454350848E9,
+                "95.0" : 4.454350848E9,
+                "99.0" : 4.454350848E9,
+                "99.9" : 4.454350848E9,
+                "99.99" : 4.454350848E9,
+                "99.999" : 4.454350848E9,
+                "99.9999" : 4.454350848E9,
+                "100.0" : 4.454350848E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawDataHistogram" : [
+                [
+                    [
+                        [ 3.50224384E9, 1 ],
+                        [ 4.44596224E9, 1 ]
+                    ],
+                    [
+                        [ 3.8797312E9, 1 ],
+                        [ 4.437573632E9, 1 ]
+                    ],
+                    [
+                        [ 3.552575488E9, 1 ],
+                        [ 4.454350848E9, 1 ]
+                    ]
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "testInitLen·p0.00" : {
+                "score" : 3.50224384E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 3.50224384E9,
+                    "50.0" : 3.50224384E9,
+                    "90.0" : 3.50224384E9,
+                    "95.0" : 3.50224384E9,
+                    "99.0" : 3.50224384E9,
+                    "99.9" : 3.50224384E9,
+                    "99.99" : 3.50224384E9,
+                    "99.999" : 3.50224384E9,
+                    "99.9999" : 3.50224384E9,
+                    "100.0" : 3.50224384E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        3.50224384E9,
+                        3.8797312E9,
+                        3.552575488E9
+                    ]
+                ]
+            },
+            "testInitLen·p0.50" : {
+                "score" : 4.158652416E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.158652416E9,
+                    "50.0" : 4.158652416E9,
+                    "90.0" : 4.158652416E9,
+                    "95.0" : 4.158652416E9,
+                    "99.0" : 4.158652416E9,
+                    "99.9" : 4.158652416E9,
+                    "99.99" : 4.158652416E9,
+                    "99.999" : 4.158652416E9,
+                    "99.9999" : 4.158652416E9,
+                    "100.0" : 4.158652416E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        3.97410304E9,
+                        4.158652416E9,
+                        4.003463168E9
+                    ]
+                ]
+            },
+            "testInitLen·p0.90" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.44596224E9,
+                        4.437573632E9,
+                        4.454350848E9
+                    ]
+                ]
+            },
+            "testInitLen·p0.95" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.44596224E9,
+                        4.437573632E9,
+                        4.454350848E9
+                    ]
+                ]
+            },
+            "testInitLen·p0.99" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.44596224E9,
+                        4.437573632E9,
+                        4.454350848E9
+                    ]
+                ]
+            },
+            "testInitLen·p0.999" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.44596224E9,
+                        4.437573632E9,
+                        4.454350848E9
+                    ]
+                ]
+            },
+            "testInitLen·p0.9999" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.44596224E9,
+                        4.437573632E9,
+                        4.454350848E9
+                    ]
+                ]
+            },
+            "testInitLen·p1.00" : {
+                "score" : 4.454350848E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.454350848E9,
+                    "50.0" : 4.454350848E9,
+                    "90.0" : 4.454350848E9,
+                    "95.0" : 4.454350848E9,
+                    "99.0" : 4.454350848E9,
+                    "99.9" : 4.454350848E9,
+                    "99.99" : 4.454350848E9,
+                    "99.999" : 4.454350848E9,
+                    "99.9999" : 4.454350848E9,
+                    "100.0" : 4.454350848E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.44596224E9,
+                        4.437573632E9,
+                        4.454350848E9
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testNoInitLen",
+        "mode" : "sample",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 4.515867306666667E9,
+            "scoreError" : 3.8483662743292027E9,
+            "scoreConfidence" : [
+                6.675010323374643E8,
+                8.36423358099587E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.36207616E9,
+                "50.0" : 4.429185024E9,
+                "90.0" : 4.756340736E9,
+                "95.0" : 4.756340736E9,
+                "99.0" : 4.756340736E9,
+                "99.9" : 4.756340736E9,
+                "99.99" : 4.756340736E9,
+                "99.999" : 4.756340736E9,
+                "99.9999" : 4.756340736E9,
+                "100.0" : 4.756340736E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawDataHistogram" : [
+                [
+                    [
+                        [ 4.36207616E9, 1 ]
+                    ],
+                    [
+                        [ 4.756340736E9, 1 ]
+                    ],
+                    [
+                        [ 4.429185024E9, 1 ]
+                    ]
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "testNoInitLen·p0.00" : {
+                "score" : 4.36207616E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.36207616E9,
+                    "50.0" : 4.36207616E9,
+                    "90.0" : 4.36207616E9,
+                    "95.0" : 4.36207616E9,
+                    "99.0" : 4.36207616E9,
+                    "99.9" : 4.36207616E9,
+                    "99.99" : 4.36207616E9,
+                    "99.999" : 4.36207616E9,
+                    "99.9999" : 4.36207616E9,
+                    "100.0" : 4.36207616E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            },
+            "testNoInitLen·p0.50" : {
+                "score" : 4.429185024E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.429185024E9,
+                    "50.0" : 4.429185024E9,
+                    "90.0" : 4.429185024E9,
+                    "95.0" : 4.429185024E9,
+                    "99.0" : 4.429185024E9,
+                    "99.9" : 4.429185024E9,
+                    "99.99" : 4.429185024E9,
+                    "99.999" : 4.429185024E9,
+                    "99.9999" : 4.429185024E9,
+                    "100.0" : 4.429185024E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            },
+            "testNoInitLen·p0.90" : {
+                "score" : 4.756340736E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.756340736E9,
+                    "50.0" : 4.756340736E9,
+                    "90.0" : 4.756340736E9,
+                    "95.0" : 4.756340736E9,
+                    "99.0" : 4.756340736E9,
+                    "99.9" : 4.756340736E9,
+                    "99.99" : 4.756340736E9,
+                    "99.999" : 4.756340736E9,
+                    "99.9999" : 4.756340736E9,
+                    "100.0" : 4.756340736E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            },
+            "testNoInitLen·p0.95" : {
+                "score" : 4.756340736E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.756340736E9,
+                    "50.0" : 4.756340736E9,
+                    "90.0" : 4.756340736E9,
+                    "95.0" : 4.756340736E9,
+                    "99.0" : 4.756340736E9,
+                    "99.9" : 4.756340736E9,
+                    "99.99" : 4.756340736E9,
+                    "99.999" : 4.756340736E9,
+                    "99.9999" : 4.756340736E9,
+                    "100.0" : 4.756340736E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            },
+            "testNoInitLen·p0.99" : {
+                "score" : 4.756340736E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.756340736E9,
+                    "50.0" : 4.756340736E9,
+                    "90.0" : 4.756340736E9,
+                    "95.0" : 4.756340736E9,
+                    "99.0" : 4.756340736E9,
+                    "99.9" : 4.756340736E9,
+                    "99.99" : 4.756340736E9,
+                    "99.999" : 4.756340736E9,
+                    "99.9999" : 4.756340736E9,
+                    "100.0" : 4.756340736E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            },
+            "testNoInitLen·p0.999" : {
+                "score" : 4.756340736E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.756340736E9,
+                    "50.0" : 4.756340736E9,
+                    "90.0" : 4.756340736E9,
+                    "95.0" : 4.756340736E9,
+                    "99.0" : 4.756340736E9,
+                    "99.9" : 4.756340736E9,
+                    "99.99" : 4.756340736E9,
+                    "99.999" : 4.756340736E9,
+                    "99.9999" : 4.756340736E9,
+                    "100.0" : 4.756340736E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            },
+            "testNoInitLen·p0.9999" : {
+                "score" : 4.756340736E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.756340736E9,
+                    "50.0" : 4.756340736E9,
+                    "90.0" : 4.756340736E9,
+                    "95.0" : 4.756340736E9,
+                    "99.0" : 4.756340736E9,
+                    "99.9" : 4.756340736E9,
+                    "99.99" : 4.756340736E9,
+                    "99.999" : 4.756340736E9,
+                    "99.9999" : 4.756340736E9,
+                    "100.0" : 4.756340736E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            },
+            "testNoInitLen·p1.00" : {
+                "score" : 4.756340736E9,
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : 4.756340736E9,
+                    "50.0" : 4.756340736E9,
+                    "90.0" : 4.756340736E9,
+                    "95.0" : 4.756340736E9,
+                    "99.0" : 4.756340736E9,
+                    "99.9" : 4.756340736E9,
+                    "99.99" : 4.756340736E9,
+                    "99.999" : 4.756340736E9,
+                    "99.9999" : 4.756340736E9,
+                    "100.0" : 4.756340736E9
+                },
+                "scoreUnit" : "ns/op",
+                "rawData" : [
+                    [
+                        4.36207616E9,
+                        4.756340736E9,
+                        4.429185024E9
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testInitLen",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 3.9410510333333335E9,
+            "scoreError" : 8.754828931943232E9,
+            "scoreConfidence" : [
+                -4.813777898609898E9,
+                1.2695879965276566E10
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.5199663E9,
+                "50.0" : 3.8396604E9,
+                "90.0" : 4.4635264E9,
+                "95.0" : 4.4635264E9,
+                "99.0" : 4.4635264E9,
+                "99.9" : 4.4635264E9,
+                "99.99" : 4.4635264E9,
+                "99.999" : 4.4635264E9,
+                "99.9999" : 4.4635264E9,
+                "100.0" : 4.4635264E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.5199663E9,
+                    4.4635264E9,
+                    3.8396604E9
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.23",
+        "benchmark" : "com.nyp.test.hashmap.HashMapPutResizeBenchmark.testNoInitLen",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "E:\\Program Files\\Java\\jdk1.8.0_181\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\lib\\idea_rt.jar=59841:E:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.1.3\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_181",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.181-b13",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "4 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "value" : "1000000"
+        },
+        "primaryMetric" : {
+            "score" : 4.490012533333333E9,
+            "scoreError" : 4.279444403121558E9,
+            "scoreConfidence" : [
+                2.1056813021177483E8,
+                8.769456936454891E9
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.2517541E9,
+                "50.0" : 4.4975705E9,
+                "90.0" : 4.720713E9,
+                "95.0" : 4.720713E9,
+                "99.0" : 4.720713E9,
+                "99.9" : 4.720713E9,
+                "99.99" : 4.720713E9,
+                "99.999" : 4.720713E9,
+                "99.9999" : 4.720713E9,
+                "100.0" : 4.720713E9
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.2517541E9,
+                    4.720713E9,
+                    4.4975705E9
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
