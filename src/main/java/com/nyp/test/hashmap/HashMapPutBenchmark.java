@@ -45,10 +45,10 @@ public class HashMapPutBenchmark {
     @Benchmark
 //    @BenchmarkMode(Mode.Throughput)
     public void testConflict(){
-        HashMap map = new HashMap();
+        HashMap map = new HashMap(1300000);
         Random random = new Random();
         for (int i = 0; i < value; i++) {
-            KeyTestConflict test = new KeyTestConflict(random);
+            KeyTestConflict test = new KeyTestConflict(random, 10000);
             test.setName(i+"");
             map.put(test, test);
         }
@@ -57,7 +57,7 @@ public class HashMapPutBenchmark {
     @Benchmark
 //    @BenchmarkMode(Mode.Throughput)
     public void testNoConflict(){
-        HashMap map2 = new HashMap();
+        HashMap map2 = new HashMap(1300000);
         for (int i = 0; i < value; i++) {
             KeyTestNoConflict test = new KeyTestNoConflict();
             test.setName(i+"");

@@ -1,7 +1,6 @@
-package com.nyp.test.hashmap;
+package com.nyp.test.ArrayList;
 
-import com.nyp.test.model.hashmap.KeyTestConflict;
-import com.nyp.test.model.hashmap.KeyTestNoConflict;
+import com.nyp.test.hashmap.HashMapGetBenchmark;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.results.format.ResultFormatType;
 import org.openjdk.jmh.runner.Runner;
@@ -9,17 +8,17 @@ import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**
  * @projectName: java-benchmark
- * @package: com.nyp.test.hashmap
- * @className: Hashmap1Benchmark
+ * @package: com.nyp.test.hashmap.ArrayList
+ * @className: ArrayListGetBenchmark
  * @author: nyp
  * @description: TODO
- * @date: 2023/1/18 10:21
+ * @date: 2023/1/28 9:53
  * @version: 1.0
  */
 //使用模式 默认是Mode.Throughput
@@ -36,24 +35,32 @@ import java.util.concurrent.TimeUnit;
 @State(value = Scope.Benchmark)
 // 统计结果的时间单元
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
-public class HashMapGetBenchmark {
+public class ArrayListGetBenchmark {
 
-//    @Param(value = {"1000","100000","1000000"})
+    //    @Param(value = {"1000","100000","1000000"})
     @Param(value = {"1000000"})
     int value;
 
 
     @Benchmark
     public void testConflict(){
-        for (int i = 0; i < value; i++) {
-            ConflictHashMap.map.get(i+"");
+        int len = 10000;
+        Random random = new Random(len);
+        for (int i = 0; i < 100; i++) {
+            int index = random.nextInt(len);
+            System.out.println("有冲突，index = " + index);
+            ConflictHashMapOfList.list.get(index);
         }
     }
 
     @Benchmark
     public void testNoConflict(){
-        for (int i = 0; i < value; i++) {
-            NoConflictHashMap.map.get(i+"");
+        int len = 1000000;
+        Random random = new Random(len);
+        for (int i = 0; i < 100; i++) {
+            int index = random.nextInt(len);
+            System.out.println("无冲突，index = " + index);
+            NoConflictHashMapOfList.list.get(index);
         }
     }
 
@@ -63,9 +70,7 @@ public class HashMapGetBenchmark {
                 .include(HashMapGetBenchmark.class.getSimpleName())
                 .mode(Mode.All)
                 // 指定结果以json结尾，生成后复制可去：http://deepoove.com/jmh-visual-chart/ 或https://jmh.morethan.io/ 得到可视化界面
-//                .result("hashmap_result_get_all_jdk7_out8.json")
-//                .result("hashmap_result_get_all_jdk8_out8.json")
-                .result("hashmap_result_get_all_jdk8_out8.json")
+                .result("arraylist_result_get_all.json")
                 .resultFormat(ResultFormatType.JSON).build();
 
         new Runner(opt).run();
@@ -73,41 +78,28 @@ public class HashMapGetBenchmark {
 
 
     @State(Scope.Thread)
-    public static class ConflictHashMap {
-        volatile static HashMap map = new HashMap();
+    public static class ConflictHashMapOfList {
+        volatile static ArrayList list = new ArrayList();
+        static int randomMax = 10000;
         static {
-            // 模拟哈希冲突严重，进化成红黑树
-//             int randomMax = 10000;
-            // 模拟哈希冲突不太严重，没有进化成红黑树
-            int randomMax = 130000;
-            Random random = new Random();
-            for (int i = 0; i < 1000000; i++) {
-                KeyTestConflict test = new KeyTestConflict(random, randomMax);
-                test.setName(i+"");
-                map.put(test, test);
+            // 模拟哈希冲突严重，数组长度较小
+            for (int i = 0; i < randomMax; i++) {
+                list.add(i);
             }
         }
 
     }
 
     @State(Scope.Thread)
-    public static class NoConflictHashMap {
-        volatile static HashMap map = new HashMap();
+    public static class NoConflictHashMapOfList {
+        volatile static ArrayList list = new ArrayList();
+        static int randomMax = 1000000;
         static {
-            for (int i = 0; i < 1000000; i++) {
-                KeyTestNoConflict test = new KeyTestNoConflict();
-                test.setName(i+"");
-                map.put(test, test);
+            // 模拟没有哈希冲突，数组长度较大
+            for (int i = 0; i < randomMax; i++) {
+                list.add(i);
             }
         }
 
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-    public void setValue(int value) {
-        this.value = value;
     }
 }
